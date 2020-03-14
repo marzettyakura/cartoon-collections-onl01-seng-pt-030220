@@ -1,7 +1,7 @@
 def roll_call_dwarves(names)
   names.each_with_index do |name, index|
-  i += 1
-    puts "#{index} #{name}"
+  
+    puts "#{index + 1} #{name}"
   end
 end
 
@@ -14,7 +14,7 @@ end
 def long_planeteer_calls(calls)
 calls.any? do |call|
   call.length > 4
-end
+ end
 end
 
 def find_the_cheese(cheese)
